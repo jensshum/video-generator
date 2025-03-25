@@ -8,6 +8,8 @@ const sampleImages = [
   "https://images.pexels.com/photos/6953925/pexels-photo-6953925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "https://images.pexels.com/photos/6144023/pexels-photo-6144023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "https://images.pexels.com/photos/28469401/pexels-photo-28469401/free-photo-of-female-podcaster-with-microphone-in-studio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "https://images.pexels.com/photos/8391326/pexels-photo-8391326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "https://images.pexels.com/photos/3912516/pexels-photo-3912516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 ].map(url => `${url}?auto=format&fit=crop&w=1000&q=80`);
 
 interface ImageGridProps {

@@ -67,7 +67,7 @@ async function videoService(
     return result.data;
   } catch (error) {
     console.error("Video service error:", error);
-    throw error; // Re-throw to allow caller to handle the error
+    throw error;
   }
 }
 
